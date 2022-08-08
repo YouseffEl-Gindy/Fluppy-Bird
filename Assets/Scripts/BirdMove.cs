@@ -23,15 +23,7 @@ public class BirdMove : MonoBehaviour
     {
         Time.timeScale = 0;
 
-        int ttt = 0;
 
-        int yyy = 0;
-
-        int ty = 0;
-
-        int fs = 0;
-
-        int first = 0;
 
         rb.velocity = Vector2.right * speed;
 
