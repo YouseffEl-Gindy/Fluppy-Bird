@@ -25,6 +25,8 @@ public class BirdMove : MonoBehaviour
 
         int ttt = 0;
 
+        int yyy = 0;
+
         rb.velocity = Vector2.right * speed;
 
         isDead = false;
