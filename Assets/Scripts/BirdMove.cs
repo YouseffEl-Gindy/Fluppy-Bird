@@ -23,6 +23,8 @@ public class BirdMove : MonoBehaviour
     {
         Time.timeScale = 0;
 
+        int ttt = 0;
+
         rb.velocity = Vector2.right * speed;
 
         isDead = false;
